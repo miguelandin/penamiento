@@ -1,0 +1,23 @@
+@font-face{
+    font-family: "fuente";
+    src: url('media/font/font.ttf');
+}
+body {
+    font-family: fuente;
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+
+    background-image: url('media/home-fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: 20vw;
+    background-color: #070707;
+    background-position: top center;
+}
+
+#start{
+    display:flex;
+    justify-content:center;
+    align-items: flex-end;
+    height: 100vh;
+}

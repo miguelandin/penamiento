@@ -1,0 +1,37 @@
+.imagen-cambio {
+    position: relative;
+    width: 20vw; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.cerrado {
+    display: block; /* Asegura que la imagen normal se muestre */
+    width: 100%; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.abierto {
+    display: none; /* Oculta la imagen de hover por defecto */
+    width: 100%; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.imagen-cambio:hover .cerrado {
+    display: none; /* Oculta la imagen normal al hacer hover */
+}
+
+.imagen-cambio:hover .abierto {
+    display: block; /* Muestra la imagen de hover al hacer hover */
+}
+
+body {
+    margin: 0;
+    height: 200vh; /* Altura completa de la ventana */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: flex-end; /* Alinea al fondo */
+    background-image: url('media/negación.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 40vw;
+}
