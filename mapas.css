@@ -1,0 +1,33 @@
+@font-face{
+    font-family: "fuente";
+    src: url('media/font/font2.otf');
+}
+body {
+    font-family: fuente;
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+
+    background-image: url('media/home-fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: 20vw;
+    background-color: #070707;
+    background-position: top center;
+}
+
+.texto{
+    margin-top: 65vh;
+    margin-left: 1vw;
+}
+
+.img{
+    width: 40vw;
+    height: auto;
+    box-shadow: 5px 5px 15px #800080;
+    object-fit: cover;
+}
+
+.img:hover{
+    transform: scale(1.05);
+    transitio: transform 0.3s ease;
+}
